@@ -1,0 +1,76 @@
+body {
+  min-height: 1000px;
+  padding-top: 70px;
+  padding-left:2%;
+  padding-right:2%;
+}
+
+img {
+	margin-top: -8px;
+}
+
+footer{
+	margin-top: 100px;
+	height: 100px;
+	border-top:1px;
+	bottom:0;
+	text-align: center ;
+}
+
+#tabrec{ 
+ background-color: #3776e8 ;
+ color:#ffffff;
+}
+#tabap{ 
+ background-color: #ef9233 ;
+ color:#ffffff;
+}
+#tabinv{ 
+ background-color: #e44242 ;
+ color:#ffffff;
+} 
+#tabcur{ 
+ background-color: #888888 ;
+ color:#ffffff;
+} 
+
+#recreacion{
+	border-top: #3776e8 solid ;
+	border-left: #3776e8 solid ;
+}
+#apoyo{
+	border-top: #ef9233  solid;
+	border-left: #ef9233  solid;
+}
+#investigacion{
+	border-top: #e44242 solid ;
+	border-left: #e44242 solid ;
+} 
+#curiosidades{
+	border-top: #888888 solid ;
+	border-left: #888888 solid ;
+}
+
+#solicitud{
+padding:2%;
+}
+#ob{color:red; font-weight: bold;}
+
+.busqueda{
+	padding-left: 10px;
+}
+.busqueda div, {
+	padding:2%;
+
+}
+.btn-buscar{
+	margin:2%;
+}
+
+.nav li a{
+    padding: 6px;
+}
+
+.tab-pane{
+	padding: 1%;
+}
