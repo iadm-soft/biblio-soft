@@ -34,18 +34,33 @@ footer{
  color:#ffffff;
 } 
 
-#recreacion{
+#recreacion, #visitas{
 	border-top: #3776e8 solid ;
 	border-left: #3776e8 solid ;
 }
-#apoyo{
+
+#recreacion h3, #visitas h3 {
+    color: #3776e8;
+}
+
+#apoyo, #lanzamientos{
 	border-top: #ef9233  solid;
 	border-left: #ef9233  solid;
 }
-#investigacion{
+
+#apoyo h3, #lanzamientos h3 {
+    color: #ef9233;
+}
+
+#investigacion, #otros{
 	border-top: #e44242 solid ;
 	border-left: #e44242 solid ;
 } 
+
+#investigacion h3, #otros h3 {
+    color: #e44242;
+}
+
 #curiosidades{
 	border-top: #888888 solid ;
 	border-left: #888888 solid ;
@@ -73,4 +88,8 @@ padding:2%;
 
 .tab-pane{
 	padding: 1%;
+}
+
+.title-section {
+    margin-bottom: 1em;
 }

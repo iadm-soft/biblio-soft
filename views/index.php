@@ -1,7 +1,10 @@
-<?php include 'menu.php'; ?>
+<?php 
+    $page = 'home';
+    require_once 'menu.php'; 
+?>
 
 <h2>Bienvenido a la biblioteca de la UNLP!</h2>
 
-<?php include 'footer.php'; ?>
+<?php require_once 'footer.php'; ?>
 
        

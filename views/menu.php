@@ -38,17 +38,18 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="../images/logo_bp.gif"></a>
+                    <a class="navbar-brand" href="index.php"><img src="../images/logo_bp.gif"></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="../views/index.php">Inicio</a></li>
-                        <li><a href="../views/catalogo.php">Catálogo</a></li>
-                        <li><a href="../views/noticias.php">Noticias</a></li>
-                        <li><a href="#contact">Eventos</a></li>
-                        <li><a href="../views/contacto.php">Contacto</a></li>
-                        <li><a href="../views/solicitud.php">Solicitud de compra</a></li>
+                        <li class="<?php if($page == 'home'){ ?>active<?php } ?>"><a href="../views/index.php">Inicio</a></li>
+                        <li class="<?php if($page == 'catalogo'){ ?>active<?php } ?>"><a href="../views/catalogo.php">Catálogo</a></li>
+                        <li class="<?php if($page == 'noticias'){ ?>active<?php } ?>"><a href="../views/noticias.php">Noticias</a></li>
+                        <li class="<?php if($page == 'eventos'){ ?>active<?php } ?>"><a href="../views/eventos.php">Eventos</a></li>
+                        <li class="<?php if($page == 'contacto'){ ?>active<?php } ?>"><a href="../views/contacto.php">Contacto</a></li>
+                        <li class="<?php if($page == 'solicitud'){ ?>active<?php } ?>"><a href="../views/solicitud.php">Solicitud de compra</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
         </nav>
+        <div class="container">
