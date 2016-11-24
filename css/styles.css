@@ -1,5 +1,5 @@
 body {
-  min-height: 1000px;
+  height: 100%;
   padding-top: 70px;
   padding-left:2%;
   padding-right:2%;
@@ -10,13 +10,62 @@ img {
 }
 
 footer{
+
+	font-size: 12px ;
 	margin-top: 100px;
-	height: 100px;
-	border-top:1px;
-	bottom:0;
 	text-align: center ;
+	padding: 20px ;
+	height: 100px;
+	width:100%;
+	border-top:1px;
+	bottom:0px;
+
+}
+footer p{
+margin-bottom: 0 ;
 }
 
+footer div{
+	padding: 30px ;
+	border-top: solid #dddddd 6px;
+}
+/* Estilos de index */
+.jumbotron{
+	padding:1% !important;
+}
+
+#noticias .header{
+	background-color: #3776e8;
+	color: white ;
+	margin-top:0px;
+}
+#noticias{
+	padding-bottom:10px ;
+	border-radius: 0 ;
+}
+
+#libros{
+	width:90%; 
+	margin-top: 6% ;
+}
+
+ .titulos{
+ 	margin-top:4%;
+ 	 color: #3776e8;
+ }
+
+ .inicio {
+ 	margin: 2% 10% 0 0 ;
+ }
+
+ .inicio .cita {
+ 	font-style: italic;
+ }
+
+
+
+
+/* Estilos de catalogo - pestañas y sus divs*/
 #tabrec{ 
  background-color: #3776e8 ;
  color:#ffffff;
@@ -33,6 +82,7 @@ footer{
  background-color: #888888 ;
  color:#ffffff;
 } 
+
 
 #recreacion, #visitas{
 	border-top: #3776e8 solid ;
@@ -66,9 +116,8 @@ footer{
 	border-left: #888888 solid ;
 }
 
-#solicitud{
-padding:2%;
-}
+
+
 #ob{color:red; font-weight: bold;}
 
 .busqueda{
@@ -93,3 +142,7 @@ padding:2%;
 .title-section {
     margin-bottom: 1em;
 }
+
+
+
+/* */

@@ -2,8 +2,12 @@
     $page = 'solicitud';
     require_once 'menu.php'; 
 ?>
-<div id="solicitud">
-    <h2>Solicitud de compra de material bibliográfico</h2>
+
+    <div class="row title-section">
+         <h2>Solicitud de compra de material bibliográfico</h2>
+    </div>
+   
+    <div class="row">
     <p> Complete el siguiente formulario si desea proponer la compra de un libro para la Biblioteca por uno de los siguientes motivos: <br>
         * La biblioteca no dispone de ningún ejemplar de este título.<br>
         * La biblioteca no dispone de una determinada edición de este título.<br>
@@ -16,6 +20,7 @@
 
         <span id="ob"> * Obligatorio </span>
     </p>
+    <div class="col-sm-6 ">
     <form>
         <fieldset class="form-group">
             <legend>Solicitante</legend>
@@ -111,7 +116,8 @@
                 </fieldset>
 
                 <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
-                </div>
+        </form>
+        </div>
+    </div>
 
-                <?php require_once 'footer.php'; ?>
+     <?php require_once 'footer.php'; ?>
