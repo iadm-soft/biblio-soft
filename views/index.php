@@ -16,7 +16,8 @@
 					<h4>Coleccion de Libros fotograficos</h4>
 					<small>Los libros son un medio fundamental para la difusión de la fotografía. A la vez que funcionan como una suerte de archivos y dispositivos de memoria, son la posibilidad de plasmar la instantaneidad dando testimonio, documentando, haciendo historia. 
 					</small>
-					<small>Con esta muestra los invitamos a conocer parte de los libros que la conforman.</small><br>
+					<small>Con esta muestra los invitamos a conocer parte de los libros que la conforman.</small>
+					<br>
 					<small>Mas informacion en <a href="../views/noticias.php#recreacion"> seccion noticias</a> </small>
 				</div>
 		</div>
@@ -40,7 +41,10 @@
 			 <hr>
 			 <small>Sala Parlante cerrada <br>
 				El viernes 3 con motivo de realizarse la jornada "La voz, las Voces y los Silencios" a 100 años del Genocidio Armenio, la Sala Parlante permanecerá cerrada desde las 15.30 hs.
-			</small>
+				 </small>
+				 <hr>
+				<small>Mayo 2016: Vencimiento de carnets 2015 </small>
+			
 		</div>
 			
 		</div>

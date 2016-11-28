@@ -21,6 +21,7 @@ footer{
 	bottom:0px;
 
 }
+
 footer p{
 margin-bottom: 0 ;
 }
@@ -29,20 +30,38 @@ footer div{
 	padding: 30px ;
 	border-top: solid #dddddd 6px;
 }
+
+/* Estilos menu */
+.nav{
+    margin-top: 10px;
+}
+
+.nav li {
+	font-size: 20px ;
+}
+
 /* Estilos de index */
+
 .jumbotron{
 	padding:1% !important;
 }
 
+  p .cita {
+ 	font-style: italic;
+ }
+
+
 #noticias .header{
 	background-color: #3776e8;
 	color: white ;
-	margin-top:0px;
+	margin-top:-4px;
+	margin-left:2px;
 }
 #noticias{
 	padding-bottom:10px ;
 	border-radius: 0 ;
 }
+
 
 #libros{
 	width:90%; 
@@ -58,9 +77,6 @@ footer div{
  	margin: 2% 10% 0 0 ;
  }
 
- .inicio .cita {
- 	font-style: italic;
- }
 
 
 

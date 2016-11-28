@@ -3,8 +3,8 @@
         <div >
  
 	       <p> Seguinos en:  
-	      	<a href="https://www.facebook.com/BibPublicaUNLP"><img src="../images/logo_fb.gif" width="20px"></a>
-	       	<a href="https://twitter.com/BibPublicaUNLP"><img src="../images/logo_tw.gif" width="20px"></a>
+	      	<a href="https://www.facebook.com/BibPublicaUNLP"><img src="../images/logo_fb.gif" width="25px"></a>
+	       	<a href="https://twitter.com/BibPublicaUNLP"><img src="../images/logo_tw.gif" width="25px"></a>
 	       	</p><br>
 	           
 	       	<p>Plaza Rocha 137 - La Plata, Buenos Aires</p>

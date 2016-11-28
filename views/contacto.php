@@ -3,13 +3,10 @@
     require_once 'menu.php'; 
 ?>
 
-<div class="row title-section">
-    <div class="col-xs-12 col-lg-offset-1 col-lg-10">
-        <h2>Información de contacto</h2>  
-    </div>
 </div>
 <div class="row">
-    <div class="col-lg-8 col-lg-offset-2">
+    <div class="col-lg-8 col-lg-offset-1"> 
+    <h2>Información de contacto</h2>  
         <div class="row">
             <div class="col-xs-12">
                 <strong>Dirección:</strong> 
