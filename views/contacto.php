@@ -3,7 +3,6 @@
     require_once 'menu.php'; 
 ?>
 
-</div>
 <div class="row">
     <div class="col-lg-8 col-lg-offset-1"> 
     <h2>Información de contacto</h2>  

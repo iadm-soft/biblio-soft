@@ -47,7 +47,7 @@
                         <li class="<?php if($page == 'noticias'){ ?>active<?php } ?>"><a href="../views/noticias.php">Noticias</a></li>
                         <li class="<?php if($page == 'eventos'){ ?>active<?php } ?>"><a href="../views/eventos.php">Eventos</a></li>
                         <li class="<?php if($page == 'contacto'){ ?>active<?php } ?>"><a href="../views/contacto.php">Contacto</a></li>
-                        <li class="<?php if($page == 'solicitud'){ ?>active<?php } ?>"><a href="../views/solicitud.php">Solicitud de compra</a></li>
+                        <li class="<?php if($page == 'solicitud'){ ?>active<?php } ?>"><a href="../views/solicitud.php">Solicitudes</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>

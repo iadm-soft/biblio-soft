@@ -54,3 +54,43 @@ function enviarSolicitud () {
     } 
     return false;
 }
+
+libros = ['Libro 1', 'Libro 2', 'Libro 3'];
+
+function existeCatalogoUno (search_term) {
+    var existentes = [];
+    var search = new RegExp(search_term , "i");
+    var arr = jQuery.grep(libros, function (value) {
+        if(search.test(value)) {
+            existentes.push(value);
+        }
+    });
+    
+    return existentes;
+}
+
+function catalogoUno () {
+    var ok = false;
+    var input = $("#formUno input[name='bsimple']");
+    
+    if (input.val() == "") {
+        alert('Debe ingresar un texto para realizar la búsqueda.');
+    } else {
+        var libros_ex = existeCatalogoUno(input.val());
+        if (libros_ex.length > 0) {
+            var text_alert = 'Se han encontrado estos libros:\n\n';
+            
+            $.each(libros_ex, function( index, value ) {
+                text_alert += '  - ' + value + '\n';
+            });
+            
+            alert(text_alert);
+            ok = true;
+            input.val('');
+        } else {
+            alert('No se han encontrado libros con esas palabras.');
+        }
+    }
+    
+    return ok;
+}
