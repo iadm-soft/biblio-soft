@@ -11,9 +11,9 @@
 <div class="row">
     <div class="col-lg-10 col-lg-offset-1">
         <ul class="nav nav-tabs">
-            <li class="active"><a id="tabrec" data-toggle="tab" href="#visitas">Visitas</a></li>
-            <li><a id="tabap" data-toggle="tab" href="#lanzamientos">Lanzamientos</a></li>
-            <li><a id="tabinv" data-toggle="tab" href="#otros">Otros</a></li>
+            <li class="active size"><a id="tabrec" data-toggle="tab" href="#visitas">Visitas</a></li>
+            <li class="size"><a id="tabap" data-toggle="tab" href="#lanzamientos">Lanzamientos</a></li>
+            <li class="size"><a id="tabinv" data-toggle="tab" href="#otros">Otros</a></li>
         </ul>
 
         <div class="tab-content">

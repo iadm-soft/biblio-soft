@@ -21,20 +21,19 @@ require_once 'menu.php';
             La biblioteca estudiará su propuesta y, si se acepta, tramitará su adquisición informando de su disponibilidad. Tenga en cuenta que existirá un plazo de demora en la adquisición.
             <br>
 
-            <span id="ob"> * Obligatorio </span>
+            <small id="ob"> * Dato obligatorio </small>
         </p>
         <div class="col-sm-6 ">
             <form onsubmit="return enviarSolicitud()">
                 <fieldset class="form-group">
                     <legend>Solicitante</legend>
                     <div class="form-group">
-                        <label for="nombre">Apellido y nombre *</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Escriba su nombre">
+                        <label for="nombre">Apellido y nombre <span class="red">*</span></label>
+                        <input type="text" class="form-control" id="nombre">
                     </div>
                     <div class="form-group">
                         <label for="mail">Correo electronico</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="mail@dominio.com">
-                        <small id="emailHelp" class="form-text text-muted">No obligatorio.</small>
                     </div>
 
                     <div class="form-group">
@@ -57,7 +56,7 @@ require_once 'menu.php';
                     </div>
 
                     <div class="form-check">
-                        <label for="exampleSelect1">Prioridad *</label>
+                        <label for="exampleSelect1">Prioridad <span class="red">*</span></label>
                         <label class="form-check-label">
                             <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
                             Alta
@@ -79,11 +78,11 @@ require_once 'menu.php';
                 <fieldset class="form-group">
                     <legend>Datos del libro</legend>
                     <div class="form-group">
-                        <label for="autor">Autor *</label>
+                        <label for="autor">Autor <span class="red">*</span></label>
                         <input type="text" class="form-control" id="autor" placeholder="Escriba su nombre y apellido">
                     </div>
                     <div class="form-group">
-                        <label for="titulo">Titulo *</label>
+                        <label for="titulo">Titulo <span class="red">*</span></label>
                         <input type="text" class="form-control" id="titulo" placeholder="titulo">
                     </div>
                     <div class="form-group">

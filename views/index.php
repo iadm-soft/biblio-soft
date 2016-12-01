@@ -39,7 +39,7 @@ require_once 'menu.php';
                 </div>
             </div>	
             <div class="col-xs-12 col-sm-12 col-lg-4">
-                <div id="noticias" class="jumbotron">
+                <div id="noticia" class="jumbotron">
                     <h3 class="header"> Noticias </h3>
                     <small>Receso Invernal <br>
                         Se informa a los lectores que la Biblioteca Pública permanecerá cerrada del 20 a 31 de julio '15, con motivo del receso invernal dispuesto por Res. N°466 de la Presidencia de la UNLP. Las actividades se reanudarán a partir del 3 de agosto en su horario habitual.

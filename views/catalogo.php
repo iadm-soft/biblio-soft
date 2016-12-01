@@ -10,22 +10,19 @@ require_once 'menu.php';
 <div class="row">
     <div class="col-lg-10 col-lg-offset-1">
 
+        <div class=" busqueda">
 
-
-        <!--<label for="">Tipo de busqueda:</label>
-        <ul class="nav nav-pills" class="">
-            <li class="active"><a id="tab" data-toggle="tab" href="#simple">Simple</a></li>
-        <!--<li><a id="tab" data-toggle="tab" href="#avanzada">Avanzada</a></li>
-        <li><a id="tab" data-toggle="tab" href="#fecha">Fecha</a></li>
-        <li><a id="tab" data-toggle="tab" href="#isbn">ISBN/ISSN</a></li>
-    </ul>-->
-
-        <div class="tab-content busqueda">
-
-            <div id="simple" class="tab-pane fade in active">
+            <div id="simple">
                 <form id="formUno" onsubmit="return catalogoUno();">
-                    <label>Buscar:</label> <input type="text" name="bsimple">
-                    <button type="submit" class="btn btn-primary btn-buscar ">Buscar</button>
+
+                <div class="row">
+                 <div class="form-group">
+                         <label>Buscar:</label> 
+                         <input type="text" class="" id="buscar">
+                        <button type="submit" class="btn btn-primary">Buscar</button>
+                 </div>
+                </div>
+                
                 </form>
                 <h3>Consejos</h3>
                 <ul>
@@ -41,61 +38,10 @@ require_once 'menu.php';
                 </ul>
 
             </div>
-            <div id="avanzada" class="tab-pane fade">
-                <form onsubmit="return catalogoDos();">
-                    <div class="checkbox">
-                        <label><input type="checkbox" value="">Usar paréntesis</label>
-                        <label><input type="checkbox" value="">Usar relaciones</label>
-                    </div>
-                    <label>Cantidad de condiciones</label> <button> más</button> <button>menos</button>   
-                    <div class="row">
-                        <div class="col-sm-3">Operador</div>
-                        <div class="col-sm-3">	 Término/s </div>
-                        <div class="col-sm-3">Relación</div>
-                        <div class="col-sm-3"> 	Área 	</div>
-                    </div>
-                    <div class="row"> 
-                        <div class="col-sm-3"> Buscar </div>
-                        <div class="col-sm-3"><input type="text"></div>
-                        <div class="col-sm-3"><select> <option>=</option><option>+</option> </select></div>
-                        <div class="col-sm-3">a <input type="text"></div>
-                    </div>	
-                    <div class="row"> 
-                        <div class="col-sm-3"> <select> <option>Y</option><option>O</option> </select></div>
-                        <div class="col-sm-3"><input type="text"></div>
-                        <div class="col-sm-3"><select> <option>=</option><option>+</option> </select></div>
-                        <div class="col-sm-3">a <input type="text"></div>
-                    </div>		 
-                    <label>Año de Publicación entre </label> <input type="text"> <label> y </label> <input type="text">
-                    <label> Resultados por página</label> <select> <option>10</option><option>15</option><option>20</option><option>25</option> </select>  	
-                    <button type="submit" class="btn btn-primary btn-buscar">Limpiar</button>
-                    <button type="submit" class="btn btn-primary btn-buscar">Buscar</button>
-
-                </form>
-            </div>
-
-            <div id="fecha" class="tab-pane fade">
-                <form onsubmit="return catalogoTres();">
-                    <label>Novedades:</label>  
-                    <select> 
-                        <option>ultimo MES</option>
-                        <option>ultimo TRIMESTRE</option>
-                        <option>ultimo CUATRIMESTRE</option>
-                        <option>ultimo SEMESTRE</option>
-                        <option>ultimo AÑO</option>
-                    </select>
-                    <button type="submit" class="btn btn-primary btn-buscar ">Buscar</button>
-                </form>
-            </div>
-
-            <div id="isbn" class="tab-pane fade">
-                <form onsubmit="return catalogoCuatro();">
-                    <label>Buscar por ISBN/ISSN:</label> <input type="text" name="bisbn">
-                    <button type="submit" class="btn btn-primary btn-buscar ">Buscar</button>
-                </form>
-            </div>
-
+      
         </div>
+
     </div>
 </div>
+
 <?php require_once 'footer.php'; ?>

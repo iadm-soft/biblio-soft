@@ -51,13 +51,13 @@ footer div{
  }
 
 
-#noticias .header{
+#noticia .header{
 	background-color: #3776e8;
 	color: white ;
 	margin-top:-4px;
 	margin-left:2px;
 }
-#noticias{
+#noticia{
 	padding-bottom:10px ;
 	border-radius: 0 ;
 }
@@ -159,6 +159,30 @@ footer div{
     margin-bottom: 1em;
 }
 
+.red {color: red}
+
+#buscar {
+    width: 40%;
+    height: 33px;
+    padding: 4px 8px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
 
 
-/* */
+ .size{
+	width:227px;
+}
+
+.nav-tabs>li>a:hover{
+border-color: #eee #eee ;
+opacity: 0.5 ;
+}

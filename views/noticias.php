@@ -5,16 +5,16 @@
 
 <div class="row title-section">
     <div class="col-xs-12 col-lg-offset-1 col-lg-10">
-        <h2>Intereses</h2>
+        <h2 class="titulos">Intereses</h2>
     </div>
 </div>
-<div class="row">
+<div class="row noticias">
     <div class="col-lg-10 col-lg-offset-1">
         <ul class="nav nav-tabs">
-            <li class="active"><a id="tabrec" data-toggle="tab" href="#recreacion">Recreacion</a></li>
-            <li><a id="tabap" data-toggle="tab" href="#apoyo">Apoyo a la educacion</a></li>
-            <li><a id="tabinv" data-toggle="tab" href="#investigacion">Investigacion</a></li>
-            <li><a id="tabcur" data-toggle="tab" href="#curiosidades">Curiosidades</a></li>
+            <li  class=" size active"><a id="tabrec" data-toggle="tab" href="#recreacion">Recreacion</a></li>
+            <li class="size"><a id="tabap" data-toggle="tab" href="#apoyo">Apoyo a la educacion</a></li>
+            <li class="size"><a id="tabinv" data-toggle="tab" href="#investigacion">Investigacion</a></li>
+            <li class="size"><a id="tabcur" data-toggle="tab" href="#curiosidades">Curiosidades</a></li>
         </ul>
 
         <div class="tab-content">
